@@ -1,0 +1,151 @@
+.shoptopin{
+  max-width: 1200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-top: 120px;
+  margin-bottom: 1%;
+}
+.shiharai{
+  max-width: 1200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1%;
+  padding-left: 1%;
+  margin-bottom: 1%;
+}
+.shoptop{
+  width:100%;
+}
+
+.category{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding-left:1%;
+  padding-right: 1%;
+}
+.shopleft{
+  width:59%;
+  float:left;
+  margin-right: 1%;
+  background-color: #d2b6c3;
+  padding-bottom: 32767px;
+  margin-bottom: -32767px;
+  padding-top: 2%;
+}
+.shopright{
+  width:40%;
+  float:right;
+  position: relative;
+  padding-bottom: 32767px;
+  margin-bottom: -32767px;
+}
+.shoppinglogo{
+  width:40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.shop_p1{
+  color:#4a4645;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2.5em;
+}
+.cate{
+  width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+.kadanimg{
+  width:100%;
+  z-index: 1;
+  position: absolute;
+}
+.kadanback{
+  width:100%;
+  z-index: 1;
+}
+.shopright2{
+  width:100%;
+  z-index: 2;
+  position: absolute;
+}
+.shiharaiin{
+  background-color: #d0c0b0;
+  margin-top:1%;
+  padding-top: 3%;
+  padding-bottom:3%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.shiharaimidashi,.shiharaimidashi2,.shiharaimidashi3{
+  width:25%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shop_p2{
+  color:#4a4645;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.shop_p3{
+  color:#4a4645;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+/*---------------------*/
+/* 画面サイズが768px以下の場合に適用 */
+/*----------------------------*/
+@media screen and (max-width: 767px) {
+.shoptopin,.shiharai{
+  max-width: 95%;
+}
+.category{
+  width: 95%;
+  padding-left: 0%;
+}
+.shopleft{
+  width:100%;
+  float:none;
+  margin-right: 0%;
+  overflow:hidden;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-bottom: 0;
+
+}
+.shopright{
+  width:100%;
+  float:none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.shop_p1{
+  font-size: 13px;
+  width:90%;
+  margin-bottom: 8%;
+}
+.shop_p2,.shop_p3{
+  font-size: 13px;
+}
+.shiharaimidashi,.shiharaimidashi2,.shiharaimidashi3{
+  width:50%;
+}
+.cate{
+  width:30%;
+  margin-top: 8%;}
+}

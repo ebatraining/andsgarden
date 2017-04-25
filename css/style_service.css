@@ -1,0 +1,260 @@
+.servicetop{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-top: 120px;
+}
+.servicetopimg{
+  width:100%;
+  margin-bottom: 1%;
+}
+.monthly{
+  max-width:1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right:1%;
+  padding-left: 1%;
+  overflow: hidden;
+  margin-bottom: 1%;
+}
+.wedding,.gift{
+  max-width:1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right:1%;
+  padding-left: 1%;
+  overflow: hidden;
+  margin-bottom: 1%;
+}
+.monthlyimg{
+  float:right;
+  width:59%;
+  margin-left: 1%;
+  padding-bottom: 32767px;
+  margin-bottom: -32767px;
+}
+.monthlyleft{
+  float:left;
+  width:40%;
+  background-color : #d2b6c3;
+  padding-bottom: 32767px;
+  margin-bottom: -32767px;
+  padding-top: 3%;
+}
+.monthlylogo{
+  width:60%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.monthlyprice{
+  width:40%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.shiyourei{
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.shiyoureirelft{
+  float:left;
+  width:10%;
+}
+.shiyoureiright{
+  float:right;
+  width:90%;
+}
+.service_p1,.service_p2{
+  color:#4a4645;
+  font-size: 13px;
+  margin-bottom: 0;
+  margin-top:0;
+}
+.service_p3{
+  color:#4a4645;
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 13px;
+  }
+.gallerybutton{
+  width:30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+.gallerybutton2{
+    width:30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    }
+  .weddingimg{
+    float:left;
+    width:59%;
+    margin-right:1%;
+    padding-bottom: 32767px;
+    margin-bottom: -32767px;
+  }
+  .weddingright{
+    float:right;
+    width:40%;
+    background-color : #d0d0d0;
+    padding-bottom: 32767px;
+    margin-bottom: -32767px;
+    padding-top: 3%;
+  }
+.weddinglogo{
+    width:70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  h2{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    color:#4a4645;
+    font-size:16px;
+    text-align: center;
+  }
+.service_p4{
+    color:#4a4645;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+.giftimg{
+    float:right;
+    width:59%;
+    margin-left: 1%;
+    padding-bottom: 32767px;
+    margin-bottom: -32767px;
+    }
+.giftleft{
+    float:left;
+    width:40%;
+    background-color : #d4bca4;
+    padding-bottom: 32767px;
+    margin-bottom: -32767px;
+    padding-top: 3%;
+    }
+  .giftlogo{
+    width:70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3%;
+      }
+  .banar{
+    max-width: 1200px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1%;
+    margin-bottom:1%;
+    }
+.banar1,.banar2{
+    width:49%;
+    margin-left: 1%;
+    float:left;
+    }
+/*---------------------*/
+/* 画面サイズが768px以下の場合に適用 */
+/*----------------------------*/
+@media screen and (max-width: 767px) {
+  .service_p1,.service_p2,.service_p3,.service_p4{
+    font-size: 3vw;
+    }
+  .monthly,.wedding,.gift{
+  max-width:95%;
+  padding-right:0%;
+  padding-left: 0%;
+}
+.monthlyimg{
+  float:none;
+  width:100%;
+  margin-left: 0%;
+}
+.monthlyleft{
+  float:none;
+  width:100%;
+}
+.monthlylogo{
+  width:50%;
+}
+.monthlyprice{
+  width:30%;
+}
+.weddingimg{
+    float:none;
+    width:100%;
+    display: block;
+    margin-right:auto;
+    margin-left: auto;
+  }
+  .weddingright{
+    float:none;
+    width:100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.giftimg{
+    float:none;
+    width:100%;
+    display: block;
+    margin-right:auto;
+    margin-left: auto;
+    }
+.giftleft{
+    float:none;
+    width:100%;
+    margin-right: auto;
+    margin-left: auto;
+    }
+.banar{
+    max-width: 95%;
+    padding-right: 0%;
+    margin-bottom:1%;
+    }
+.banar1,.banar2{
+    width:100%;
+    margin-left: 0%;
+    float:none;
+    }
+.gallerybutton,.gallerybutton2{
+      width:30%;
+      margin-bottom: 5%;
+      }
+
+.monthlylogo{
+  width:60%;
+}
+h2{
+    font-size:15px;
+    margin-bottom: 0;
+  }
+.service_p1,.service_p2{
+    font-size: 13px;
+  }
+.service_p3{
+    font-size: 13px;
+    }
+.service_p4{
+    font-size: 13px;
+    }
+.servicetop{
+    width: 95%;
+    }
+}

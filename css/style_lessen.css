@@ -1,0 +1,215 @@
+.lessentop{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-top: 120px;
+}
+.lessentopimg{
+  width:100%;
+  margin-bottom: 1%;
+}
+.lessenmidashi{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:1%;
+  padding-left: 1%;
+  padding-right:1%;
+}
+
+.lessenmidashiin{
+  background-color : #e4dfd6;
+  max-width: 100%;
+  display: table;
+  background-image: url("../img/lessen/lessenmidashileft.png"); /* 全体の背景画像 */
+  background-repeat: no-repeat;            /* 背景を繰り返さない */
+  background-position: left top ;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.midashitext{
+  width:75%;
+  padding-left: 20%;
+  padding-right:10%;
+  display: table-cell;
+  vertical-align: middle;
+}
+ul.asterisk li {
+  list-style-type: none;
+  text-indent: -1em;
+  letter-spacing: 1px;
+  color: #000;
+  margin-left:-2%;
+  letter-spacing: 1px;
+  line-height: 2em;
+  font-size: 14px;
+}
+ul.asterisk li:before {
+  display: inline;
+  content: "※";
+}
+.lessenlogo{
+  margin-top:3%;
+  width:10%;
+}
+.lessentype{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1%;
+  overflow: hidden;
+  margin-bottom: 1%;
+}
+.type1{
+  width:32.3%;
+  margin-left: 1%;
+  overflow: hidden;
+  float: left;
+  background-color: #e4dfd6;
+  padding-bottom: 32767px;
+  margin-bottom: -32767px;
+}
+.type2{
+  width:32.3%;
+  margin-left: 1%;
+  overflow: hidden;
+  float: left;
+  background-color: #b4a0a9;
+  padding-bottom: 32767px;
+  margin-bottom: -32767px;
+}
+.type3{
+  width:32.3%;
+  margin-left: 1%;
+  overflow: hidden;
+  float: left;
+  background-color: #d0c0b0;
+  padding-bottom: 32767px;
+  margin-bottom: -32767px;
+}
+.lessenimg1,.lessenimg2,.lessenimg3{
+  width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lessentext1,.lessentext2{
+  width:40%;
+  margin-top: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lessentext3{
+  width:35%;
+  margin-top: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lessen_p1{
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+  color:#0c082e;
+}
+.banar{
+  max-width: 1200px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1%;
+  margin-bottom:1%;
+}
+.banar1,.banar2{
+  width:49%;
+  margin-left: 1%;
+  float:left;
+}
+.lessenmidashi_p{
+  font-size: 14px;
+}
+/*---------------------*/
+/* 画面サイズが768px以下の場合に適用 */
+/*----------------------------*/
+@media screen and (max-width: 767px) {
+.lessentop{
+    width: 95%;
+  }
+.midashitext{
+    width:80%;
+    padding-left: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left: 5%;
+    padding-right:5%;
+    padding-top: 5%;
+  }
+.lessenmidashi{
+  width:95%;
+}
+.lessenmidashiin{
+    background-image: url("../img/lessen/lessenmidashimini.png"); /* 全体の背景画像 */
+    background-repeat: no-repeat;            /* 背景を繰り返さない */
+    background-position: right top ;
+    padding-top:9%;
+  }
+
+.lessenlogo{
+  margin-top: 1%;
+  margin-left:2%;
+  width:15%;
+}
+.lessenmidashi{
+  width: 95%;
+}
+.lessenmidashi_p{
+  margin-left: 2%;
+  font-size: 13px;;
+}
+ul.asterisk li {
+  margin-left: 2%;
+  font-size: 11px;
+}
+ul.asterisk{
+  padding-bottom:3%;
+  padding-left: 0;
+}
+.lessentype{
+  width:95%;
+}
+.type1,.type2,.type3{
+  width:100%;
+  margin-left: 0%;
+  float: none;
+  margin-top: 1%;
+  padding-top:1%;
+}
+.lessenimg1,.lessenimg2,.lessenimg3{
+  width:98%;
+}
+.lessentext1,.lessentext2{
+  width:30%;
+}
+.lessentext3{
+  width:25%;
+}
+.lessen_p1{
+  width:90%;
+  font-size:13px;
+}
+.banar{
+  max-width: 95%;
+  padding-right: 0%;
+  margin-bottom:1%;
+}
+.banar1,.banar2{
+  width:100%;
+  margin-left: 0%;
+  float:none;
+  margin-bottom: 1%;
+}
+}

@@ -1,0 +1,106 @@
+.gardening{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-bottom: 1%;
+  padding-top: 120px;
+}
+.price{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-bottom: 1%;
+}
+.gardeningright{
+  float:right;
+  width:59%;
+  margin-left: 1%;
+  padding-bottom: 32767px;
+  margin-bottom: -32767px;
+}
+.gardeningleft{
+  float:left;
+  width:40%;
+  padding-bottom: 32767px;
+  margin-bottom: -32767px;
+  background-color: #b4a0a9;
+  padding-top: 3%;
+}
+.gardeninglogo{
+  width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gardeningtext{
+  color:#4a4645;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+}
+.pricein{
+  width:100%;
+  background-color: #e4dfd6;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.pricelogo{
+  width:20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul.gardeningtext2 {
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul.gardeningtext2 li{
+    color:#646464;
+    font-size: 14px;
+    margin-bottom: 2%;
+    <!--[if IE]>
+    list-style:inside;
+    <![endif]-->
+}
+/*---------------------*/
+/* 画面サイズが768px以下の場合に適用 */
+/*----------------------------*/
+@media screen and (max-width: 767px) {
+.gardening,.price{
+  width:95%;
+}
+.gardeningright{
+  float:none;
+  width:100%;
+  margin-left: 0%;
+}
+.gardeningleft{
+  float:none;
+  width:100%;
+}
+.pricelogo{
+  width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gardeningtext{
+  font-size: 12px;
+}
+ul.gardeningtext2 {
+  width:80%;
+  padding-left: 0
+}
+ul.gardeningtext2 li{
+  font size:12px;
+  margin-bottom: 3%;
+}
+}

@@ -1,0 +1,155 @@
+html,body{
+  margin: 0;         /* 余白の削除 */
+  padding: 0;        /* 余白の削除 */
+  width:100%;
+  height:100%;
+}
+
+body {
+  font-family: 'Garamond', 'Times New Roman', '游明朝', 'YuMincho', 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'MS PMincho', 'メイリオ', 'Meiryo', 'serif';
+  margin-right: auto;
+  margin-left : auto;
+  height:100%;
+}
+
+img {
+  border-style:none;
+}
+body * p{
+  letter-spacing: 1px;
+  line-height: 2em;
+}
+.header-fixed{
+  width:100%;
+  height:130px;
+  position: fixed;
+  z-index: 3
+}
+.header-bk {
+	background-color:#fff;
+	padding-top:10px;
+  height:130px;
+	width:100%;
+}
+.header{
+  width:100%;
+  background-color : #e4dfd6;
+  height:80px;
+  display: table;
+}
+
+.headerinner{
+  width:100%;
+  display: table-cell;
+  vertical-align:middle;
+}
+.headerinner2{
+  width:370px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headerlogo{
+  width:100%;
+}
+.menu{
+  width:100%;
+  background-color : #f0ede7;
+  margin-top:0;
+  padding-left: 0;
+  height:38px;
+  display: table;
+}
+.menuinner{
+  display: table-cell;
+  vertical-align: middle;
+}
+ul.menuul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  max-width:600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul.menuul li{
+  width:25%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+.menu1,.menu2,.menu3,.menu4{
+  width:40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer{
+  width:100%;
+  background-color: #bed5db;
+
+}
+.footerinner{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  overflow: hidden;
+}
+.footer_left{
+  float:left;
+  width:50%;
+}
+.footerimg{
+  display: block;
+  width:50%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top:10%;
+}
+.footer_right{
+  float:right;
+  width:45%;
+  padding-left: 5%;
+}
+h1{
+color:#4a4645;
+font-size:15px;
+margin-top: 3%;
+}
+.footer_p{
+color:#4a4645;
+font-size:13px;
+}
+/*-----------------------------*/
+/* 画面サイズが768px以下の場合に適用 */
+/*----------------------------*/
+@media screen and (max-width: 767px) {
+  .footerinner{
+    width:95%;
+  }
+  .footer_left{
+    float:none;
+    width:100%;
+  }
+  .footerimg{
+    width:30%;
+    margin-top: 4%;
+  }
+  .footer_right{
+    float:none;
+    width:100%;
+    padding-left: 0;
+  }
+  h1{
+  font-size:13px;
+  text-align: center;
+  }
+  .footer_p{
+  font-size:10px;
+  text-align: center;
+  }
+  .headerinner2{
+    width:50%;
+  }
+}

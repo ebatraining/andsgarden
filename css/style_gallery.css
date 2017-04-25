@@ -1,0 +1,61 @@
+html{
+ overflow: hidden;
+ height: 100%;
+}
+body{
+ overflow: auto;
+ height: 100%;
+}
+.contentback{
+  background-image: url("../img/gallery/flowers.jpg"); /* 全体の背景画像 */
+  background-repeat: no-repeat;            /* 背景を繰り返さない */
+  background-size: cover;
+  background-position: 50% 120px ;
+  background-attachment:fixed;
+  max-width:1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 150px;
+}
+.category1,.category2,.category3,.category4,.category5,
+.category6,.category7,.category8,.category9{
+  width: 70%;
+  margin-right: auto;
+  margin-bottom: 1%;
+  padding-bottom: 1%;
+  margin-top: -150px; /* 固定ナビの高さ分のネガティブマージン */
+  padding-top: 150px; /* 打ち消し用のパディング */
+}
+.category{
+  width:70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+}
+.categoryin{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.galleryimg{
+  width:18%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+/*-----------------------------*/
+/* 画面サイズが768px以下の場合に適用 */
+/*----------------------------*/
+@media screen and (max-width: 767px) {
+  .category1,.category2,.category3,.category4,.category5,.category6,
+  .category7,.category8,.category9{
+    width: 95%;
+  }
+.category{
+  width:90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  }
+}
