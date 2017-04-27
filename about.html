@@ -21,6 +21,13 @@ $(function () {
         $("html, body").animate({scrollTop:position}, 550, "swing");
         return false;
     });
+
+    /* カレント表示↓ */
+　　path = location.pathname
+　　if(path.match("about")){
+    $("ul.menuul li.about").addClass("current");
+    }
+
 });
 </script>
 </head>
@@ -40,7 +47,7 @@ $(function () {
               <li><a href="lesson.html"><img src="img/header/menu1_off.png" alt="lesson" class="menu1"></a></li>
               <li><a href="service.html"><img src="img/header/menu2_off.png" alt="service" class="menu2"></a></li>
               <li><a href="shop.html"> <img src="img/header/menu3_off.png" alt="shop" class="menu3"></a></li>
-              <li><a href="about.html"><img src="img/header/menu4_off.png" alt="about" class="menu4"></a></li>
+              <li class="about"><a href="about.html"><img src="img/header/menu4_off.png" alt="about" class="menu4"></a></li>
             </ul>
           </div>
         </div>
