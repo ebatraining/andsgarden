@@ -18,7 +18,15 @@ $(function(){
           }, function(){
              if (!$(this).hasClass('currentPage')) {
              $(this).attr('src', $(this).attr('src').replace('_on', '_off'));
-        }   });});
+        }   });
+
+    /* カレント表示↓ */
+　　path = location.pathname
+　　if(path.match("shop")){
+    $("ul.menuul li.shop").addClass("current");
+    }
+
+});
 </script>
 </head>
 <body>
@@ -36,7 +44,7 @@ $(function(){
             <ul class="menuul">
               <li><a href="lesson.html"><img src="img/header/menu1_off.png" alt="lesson" class="menu1"></a></li>
               <li><a href="service.html"><img src="img/header/menu2_off.png" alt="service" class="menu2"></a></li>
-              <li><a href="shop.html"> <img src="img/header/menu3_off.png" alt="shop" class="menu3"></a></li>
+              <li class="shop"><a href="shop.html"> <img src="img/header/menu3_off.png" alt="shop" class="menu3"></a></li>
               <li><a href="about.html"><img src="img/header/menu4_off.png" alt="about" class="menu4"></a></li>
             </ul>
           </div>
