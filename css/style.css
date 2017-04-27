@@ -85,6 +85,10 @@ ul.menuul li{
   margin-left: auto;
   margin-right: auto;
 }
+/* 追加↓ */
+.current{
+    border-bottom: 3px #ffa9b8 solid;
+}
 .footer{
   width:100%;
   background-color: #bed5db;
