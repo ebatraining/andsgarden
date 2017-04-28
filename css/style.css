@@ -86,13 +86,17 @@ ul.menuul li{
   margin-right: auto;
 }
 /* 追加↓ */
+/*
 .current{
   /*border-bottom: 3px #ffa9b8 solid;*/
   /*border-bottom: 3px #d2b6c3 solid;*/
   /*background: pink;*/
+/*
   background-image: url(../img/header/current.png);
   background-repeat: no-repeat;
+*/
   /*background-size: 100%;*/
+/*
   background-position: 50% 0;
   background-size: 65%;
 }
@@ -103,7 +107,7 @@ ul.menuul li{
   background-position: 26% 23%;
   background-size: 70%;
 }
-
+*/
 .current_2{
   background-image: url(../img/header/current.png);
   background-repeat: no-repeat;
@@ -124,6 +128,7 @@ ul.menuul li{
     background-position: 24% 23%;
     background-size: 70%;
     }
+*/
 
 /* 追加↓ */
 a:hover{
