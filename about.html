@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="css/style_about.css" type="text/css">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript">
-$(function () {
+/*$(function () {
     var headerHight = 120; //ヘッダの高さ
     $('a[href^=#]').click(function(){
         var href= $(this).attr("href");
@@ -21,16 +21,18 @@ $(function () {
         $("html, body").animate({scrollTop:position}, 550, "swing");
         return false;
     });
+});
 
-    /* カレント表示↓ */
+/*カレント表示↓*/
+$(function () {
 　　path = location.pathname
 　　if(path.match("about")){
     $("ul.menuul li.about").addClass("current_4");
-    }
-
+  }
 });
 </script>
 </head>
+
 <body>
 <div class="wrapper">
   <header>
@@ -44,10 +46,10 @@ $(function () {
         <div class="menu">
           <div class="menuinner">
             <ul class="menuul">
-              <li><a href="lesson.html"><img src="img/header/menu1_off.png" alt="lesson" class="menu1"></a></li>
-              <li><a href="service.html"><img src="img/header/menu2_off.png" alt="service" class="menu2"></a></li>
-              <li><a href="shop.html"> <img src="img/header/menu3_off.png" alt="shop" class="menu3"></a></li>
-              <li class="about"><a href="about.html"><img src="img/header/menu4_off.png" alt="about" class="menu4"></a></li>
+              <li><a href="lesson.html"><img src="img/header/lesson.png" alt="lesson" class="menu1"></a></li>
+              <li><a href="service.html"><img src="img/header/service.png" alt="service" class="menu2"></a></li>
+              <li><a href="shop.html"> <img src="img/header/shop.png" alt="shop" class="menu3"></a></li>
+              <li class="about"><a href="about.html"><img src="img/header/about.png" alt="about" class="menu4"></a></li>
             </ul>
           </div>
         </div>
