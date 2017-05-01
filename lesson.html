@@ -12,22 +12,27 @@
 <link rel="stylesheet" href="css/style_lesson.css" type="text/css">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript">
-$(function(){
+/*$(function(){
      $('a img').hover(function(){
         $(this).attr('src', $(this).attr('src').replace('_off', '_on'));
           }, function(){
              if (!$(this).hasClass('currentPage')) {
              $(this).attr('src', $(this).attr('src').replace('_on', '_off'));
         }   });
+});
 
-    /*カレント表示↓ */
+/*カレント表示↓*/
+$(function(){
+  path = location.pathname
+  if(path.match("lesson")){
+  $("ul.menuul li.lesson").addClass("current_1");
+  }
+});
+
+/*カレント表示↓*/
+/* http://coolwebwindow.co m/jquery-lab/archives/99 */
 /*
-　　path = location.pathname
-　　if(path.match("lesson")){
-    $("ul.menuul li.lesson").addClass("current_1");
-    }
-*/
-  /* http://coolwebwindow.co m/jquery-lab/archives/99 */
+$(function(){
     $('.menuul img').each(function(){
       // リンク先のURLを取得
       var url = $(this).parent('a').attr('href');
@@ -70,8 +75,10 @@ $(function(){
    });
 
 });
+*/
 </script>
 </head>
+
 <body>
 <div class="wrapper">
   <header>
@@ -85,10 +92,10 @@ $(function(){
         <div class="menu">
           <div class="menuinner">
             <ul class="menuul">
-              <li><a href="lesson.html"><img src="img/header/lesson.png" alt="lesson" class="menu1"></a></li>
-              <li><a href="service.html"><img src="img/header/menu2_off.png" alt="service" class="menu2"></a></li>
-              <li><a href="shop.html"><img src="img/header/menu3_off.png" alt="shop" class="menu3"></a></li>
-              <li><a href="about.html"><img src="img/header/menu4_off.png" alt="about" class="menu4"></a></li>
+              <li class="lesson"><a href="lesson.html"><img src="img/header/lesson.png" alt="lesson" class="menu1"></a></li>
+              <li><a href="service.html"><img src="img/header/service.png" alt="service" class="menu2"></a></li>
+              <li><a href="shop.html"><img src="img/header/shop.png" alt="shop" class="menu3"></a></li>
+              <li><a href="about.html"><img src="img/header/about.png" alt="about" class="menu4"></a></li>
             </ul>
           </div>
         </div>
