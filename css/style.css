@@ -80,60 +80,44 @@ ul.menuul li{
   float: left;
 }
 .menu1,.menu2,.menu3,.menu4{
-  width:40%;
+  /*width:40%;*/
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-/* 追加↓ */
-/*
-.current{
-  /*border-bottom: 3px #ffa9b8 solid;*/
-  /*border-bottom: 3px #d2b6c3 solid;*/
-  /*background: pink;*/
-/*
-  background-image: url(../img/header/current.png);
-  background-repeat: no-repeat;
-*/
-  /*background-size: 100%;*/
-/*
-  background-position: 50% 0;
-  background-size: 65%;
 }
 
 .current_1{
   background-image: url(../img/header/current.png);
   background-repeat: no-repeat;
-  background-position: 26% 23%;
+  background-position: 39% 23%;
   background-size: 70%;
 }
-*/
+
 .current_2{
   background-image: url(../img/header/current.png);
   background-repeat: no-repeat;
-  background-position: 29% 23%;
+  background-position: 44% 23%;
   background-size: 70%;
   }
 
 .current_3{
   background-image: url(../img/header/current.png);
   background-repeat: no-repeat;
-  background-position: 14% 23%;
+  background-position: 23% 23%;
   background-size: 70%;
   }
 
-  .current_4{
-    background-image: url(../img/header/current.png);
-    background-repeat: no-repeat;
-    background-position: 24% 23%;
-    background-size: 70%;
-    }
-*/
+.current_4{
+  background-image: url(../img/header/current.png);
+  background-repeat: no-repeat;
+  background-position: 38% 23%;
+  background-size: 70%;
+  }
 
 /* 追加↓ */
-a:hover{
+a img:hover{
   opacity: 0.7;
-  /*background-image: url(../img/header/lesson_on.png);*/
 }
 
 .footer{
