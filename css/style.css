@@ -119,9 +119,11 @@ ul.menuul li{
 
 
 .content{
-	margin-left:8%;
-	width:100%;
-	height:auto;
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .content a{
@@ -151,9 +153,9 @@ position:relative;
 }
 
 .box{
-	float:left;
-	margin: 2% 0.5%;
-	overflow: hidden;
+	margin: 2% 0 2% 1.7%;
+    overflow: hidden;
+    width: 23%;
 }
 
 .photo{
