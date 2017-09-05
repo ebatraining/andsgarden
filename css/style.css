@@ -115,14 +115,75 @@ ul.menuul li{
   background-size: 70%;
   }
 
-/* 追加↓ */
-a img:hover{
-  opacity: 0.7;
+/*-----変更-----*/
+
+
+.content{
+	margin-left:8%;
+	width:100%;
+	height:auto;
 }
+
+.content a{
+	display:block;
+	text-decoration:none;
+	color:#fff;
+position:relative;
+}
+
+.content .box:hover .photo::before{
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+
+.content .photo:hover{
+	transition: .3s ease-in-out;
+	transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+}
+
+.box{
+	float:left;
+	margin: 2% 0.5%;
+	overflow: hidden;
+}
+
+.photo{
+	overflow: hidden;
+	width:270px;
+	height:270px;
+	background-size:cover ;
+	position:relative;
+}
+
+.centerFit {
+	position:relative;
+	font-family:'Franklin Gothic Medium';
+	font-weight:bold;
+	font-size:1.5em;
+	letter-spacing: 0.3em;
+    position: absolute;
+    top:30%;
+    width: 100%;
+    text-align: center;
+}
+
+/*-----------------*/
+
 
 .footer{
   width:100%;
   background-color: #bed5db;
+  overflow: hidden;
+  zoom:1;
 }
 .footerinner{
   margin-left: auto;
