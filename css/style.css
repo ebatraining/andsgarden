@@ -19,6 +19,9 @@ body * p{
   letter-spacing: 1px;
   line-height: 2em;
 }
+
+@media screen and (min-width:768px){
+
 .header-fixed{
   width:100%;
   height:130px;
@@ -153,6 +156,7 @@ position:relative;
 }
 
 .box{
+	float:left;
 	margin: 2% 0 2% 1.7%;
     overflow: hidden;
     width: 23%;
@@ -218,35 +222,209 @@ margin-top: 3%;
 color:#4a4645;
 font-size:13px;
 }
+
+}
+
 /*-----------------------------*/
 /* 画面サイズが768px以下の場合に適用 */
 /*----------------------------*/
 @media screen and (max-width: 767px) {
-  .footerinner{
-    width:95%;
+
+.header-fixed{
+  width:100%;
+  height:130px;
+  position: fixed;
+  z-index: 3
+}
+.header-bk {
+	background-color:#fff;
+	padding-top:10px;
+  height:130px;
+	width:100%;
+}
+.header{
+  width:100%;
+  background-color : #e4dfd6;
+  height:80px;
+  display: table;
+}
+
+.headerinner{
+  width:100%;
+  display: table-cell;
+  vertical-align:middle;
+}
+.headerinner2{
+  width:370px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headerlogo{
+  width:100%;
+}
+.menu{
+  width:100%;
+  background-color : #f0ede7;
+  margin-top:0;
+  padding-left: 0;
+  height:38px;
+  display: table;
+}
+.menuinner{
+  display: table-cell;
+  vertical-align: middle;
+}
+ul.menuul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  max-width:600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul.menuul li{
+  width:25%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+.menu1,.menu2,.menu3,.menu4{
+  /*width:40%;*/
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.current_1{
+  background-image: url(../img/header/current.png);
+  background-repeat: no-repeat;
+  background-position: 39% 23%;
+  background-size: 70%;
+}
+
+.current_2{
+  background-image: url(../img/header/current.png);
+  background-repeat: no-repeat;
+  background-position: 44% 23%;
+  background-size: 70%;
   }
-  .footer_left{
-    float:none;
-    width:100%;
+
+.current_3{
+  background-image: url(../img/header/current.png);
+  background-repeat: no-repeat;
+  background-position: 23% 23%;
+  background-size: 70%;
   }
-  .footerimg{
-    width:30%;
-    margin-top: 4%;
+
+.current_4{
+  background-image: url(../img/header/current.png);
+  background-repeat: no-repeat;
+  background-position: 38% 23%;
+  background-size: 70%;
   }
-  .footer_right{
-    float:none;
-    width:100%;
-    padding-left: 0;
-  }
-  h1{
-  font-size:13px;
-  text-align: center;
-  }
-  .footer_p{
-  font-size:10px;
-  text-align: center;
-  }
-  .headerinner2{
-    width:50%;
-  }
+
+/*-----変更-----*/
+
+
+.content{
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.content a{
+	display:block;
+	text-decoration:none;
+	color:#fff;
+position:relative;
+}
+
+.content .box:hover .photo::before{
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+
+.content .photo:hover{
+	transition: .3s ease-in-out;
+	transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+}
+
+.box{
+	margin: 2% auto;
+    overflow: hidden;
+    width: 95%;
+}
+
+.photo{
+	overflow: hidden;
+	width:100%;
+	height:270px;
+	background-size:cover ;
+	position:relative;
+}
+
+.centerFit {
+	position:relative;
+	font-family:'Franklin Gothic Medium';
+	font-weight:bold;
+	font-size:1.5em;
+	letter-spacing: 0.3em;
+    position: absolute;
+    top:30%;
+    width: 100%;
+    text-align: center;
+}
+
+/*-----------------*/
+
+.footer{
+  width:100%;
+  background-color: #bed5db;
+  overflow: hidden;
+  zoom:1;
+}
+
+.footerinner{
+	width:95%;
+	margin:0 auto;
+}
+.footer_left{
+	float:none;
+	width:100%;
+	text-align: center;
+}
+.footerimg{
+	width:30%;
+	margin-top: 4%;
+}
+.footer_right{
+	float:none;
+	width:100%;
+	padding-left: 0;
+}
+h1{
+	font-size:13px;
+	text-align: center;
+}
+.footer_p{
+	font-size:10px;
+	text-align: center;
+}
+.headerinner2{
+	width:50%;
+}
+
 }
