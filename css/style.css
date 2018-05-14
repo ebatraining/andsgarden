@@ -120,6 +120,10 @@ ul.menuul li{
 
 /*-----変更-----*/
 
+.drawer {
+    display: none;
+    }
+
 
 .content{
 	width: 100%;
@@ -272,8 +276,7 @@ font-size:13px;
   display: table;
 }
 .menuinner{
-  display: table-cell;
-  vertical-align: middle;
+    display: none;
 }
 ul.menuul {
   margin-top: 0;

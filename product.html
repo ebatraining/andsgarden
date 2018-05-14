@@ -22,6 +22,14 @@ $(function(){
              $(this).attr('src', $(this).attr('src').replace('_on', '_off'));
         }   });});
 </script>
+<script src="iscroll-master/build/iscroll.js"></script>
+<link rel="stylesheet" href="drawer-master/dist/css/drawer.min.css">
+<script /src="drawer-master/dist/js/drawer.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(".drawer").drawer();
+});
+</script>
 </head>
 <body>
 <div class="wrapper">
@@ -34,6 +42,22 @@ $(function(){
           </div></div>
         </div>
         <div class="menu">
+          <div class="drawer drawer--right">
+                <!-- ハンバーガーボタン -->
+                <button type="button" class="drawer-toggle drawer-hamburger">
+                    <span class="sr-only">toggle navigation</span>
+                    <span class="drawer-hamburger-icon"></span>
+                </button>
+                <nav class="drawer-nav">
+                    <ul class="drawer-menu">
+                    <!-- ドロワーメニューの中身 -->
+                        <li><a href="lesson.html"><img src="img/header/lesson.png" alt="lesson" class="menu1"></a></li>
+                        <li><a href="service.html"><img src="img/header/service.png" alt="service" class="menu2"></a></li>
+                        <li><a href="shop.html"><img src="img/header/shop.png" alt="shop" class="menu3"></a></li>
+                        <li><a href="about.html"><img src="img/header/about.png" alt="about" class="menu4"></a></li>
+                    </ul>
+                </nav>
+            </div>
           <div class="menuinner">
             <ul class="menuul">
               <li><a href="lesson.html"><img src="img/header/menu1_off.png" alt="lesson" class="menu1"></a></li>
